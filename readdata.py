@@ -4,6 +4,9 @@ df = pd.read_json('News_Category_Dataset_v3.csv', lines=True)
 
 print(df)
 
+row_count = len(df)
+print(row_count)
+
 print(df.head())
 
 print(df.info())
